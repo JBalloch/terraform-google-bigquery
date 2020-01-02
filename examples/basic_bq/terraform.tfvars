@@ -1,8 +1,8 @@
-project_id = "example-project"
+project_id = "d40tm4-test-terraform"
 dataset_labels = {
   env      = "dev"
   billable = "true"
-  owner    = "janesmith"
+  owner    = "JBalloch"
 }
 tables = [
   {
@@ -14,7 +14,7 @@ tables = [
     labels = {
       env      = "devops"
       billable = "true"
-      owner    = "joedoe"
+      owner    = "JBalloch"
     },
   }
 ]
