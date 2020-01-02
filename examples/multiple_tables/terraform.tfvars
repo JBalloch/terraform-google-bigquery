@@ -1,9 +1,9 @@
-project_id                  = "example-project"
+project_id                  = "d40tm4-test-terraform"
 default_table_expiration_ms = 3600000
 dataset_labels = {
   env      = "dev"
   billable = "true"
-  owner    = "janesmith"
+  owner    = "JBalloch"
 }
 tables = [
   {
@@ -14,13 +14,13 @@ tables = [
       field                    = null,
       require_partition_filter = false,
       expiration_ms            = null,
-    },
+        },
     expiration_time = null,
     clustering      = ["fullVisitorId", "visitId"],
     labels = {
       env      = "dev"
       billable = "true"
-      owner    = "joedoe"
+      owner    = "JBalloch"
     },
   },
   {
@@ -32,7 +32,7 @@ tables = [
     labels = {
       env      = "devops"
       billable = "true"
-      owner    = "joedoe"
+      owner    = "JBalloch"
     },
   }
 ]
